@@ -1,4 +1,6 @@
-/*Leia 10 números e imprima a soma dos números ímpares.
+/*Escreva a sequência de comandos necessária para o cálculo da área de um triângulo
+de modo que a base e a altura do triângulo sejam lidas do teclado. Considere-as
+números reais
 
 Universidade Federal do Espírito Santo
 */
@@ -7,24 +9,24 @@ Universidade Federal do Espírito Santo
 
 int main(void)
 {
-    int n;
-    int soma = 0;
 
-    //loop para ler os números
-    for (int i = 0; i < 10; i++)
-    {
-        printf("Digite um número: ");
-        scanf("%d", &n);
+    // Variáveis de tipo real
+    float b;
+    float h;
+    float area;
 
-        // condição ímpar
-        if (n % 2 != 0)
-        {
-            soma += n;
-        }
-    }
-    
-    //impressão do resultado
-    printf("A soma dos números ímpares é: %d\n", soma);
+    // Armazenar os valores
+    printf("Digite á base do triângulo: \n", b);
+    scanf("%f", &b);
+
+    printf("Digite á altura do triângulo: \n", b);
+    scanf("%f", &h);
+
+    // Lógica
+    area = b * h / 2;
+
+    // Impressão do resultado
+    printf("A área do triângulo é %f", area);
 
     return 0;
 }
