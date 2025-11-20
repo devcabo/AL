@@ -4,7 +4,7 @@ final os resultados obtidos.
 
 Dados de entrada: A e B
 Dados de saída: adição, subtração, multiplicação e divisão de A por B
-Universidade dederal do Espírito Santo
+Universidade Federal do Espírito Santo
 */
 
 #include <stdio.h>
