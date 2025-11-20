@@ -12,8 +12,10 @@ int main(void)
     printf("Digite o valor das vendas do mês: ");
     scanf("%f", &vendas);
 
+    //condição do faturamento
     faturamento = salario_fixo + (vendas * 0.06);
 
+    //impressão do resultado
     printf("O faturamento do mês foi: R$ %.2f\n", faturamento);
 
     return 0;
