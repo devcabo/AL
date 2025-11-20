@@ -9,7 +9,7 @@ Universidade Federal do Espírito Santo
 int main(void)
 {
 
-    // Variáveis reais
+    // Variáveis inteiras
     int ferradura = 4, cavalo;
 
 
