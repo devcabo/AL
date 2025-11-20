@@ -1,6 +1,6 @@
 /*Escreva um programa para calcular o valor de y como função de x, segundo a função
 y = 3x + 2, num domínio real.
-Universidade dederal do Espírito Santo
+Universidade federal do Espírito Santo
 */
 
 #include <stdio.h>
