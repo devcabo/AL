@@ -10,7 +10,6 @@ int main(void)
 {
 
     // Variáveis de tipo inteiro
-
     int a, b, c;
     int v;
     // Armazenar valores
