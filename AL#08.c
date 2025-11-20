@@ -8,7 +8,7 @@ Universidade Federal do Espírito Santo
 int main(void)
 {
 
-    // Variáveis de tipo inteiro
+    // Variáveis de tipo real
     float y1, y2, x1, x2;
     float resultado;
 
