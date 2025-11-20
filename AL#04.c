@@ -1,7 +1,7 @@
 /*Faça um programa que leia os valores para largura, comprimento e altura de um
 paralelepípedo retângulo e calcule o seu volume.
 
-Universidade dederal do Espírito Santo
+Universidade Federal do Espírito Santo
 */
 
 #include <stdio.h>
