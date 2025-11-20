@@ -1,4 +1,4 @@
-/*daça um programa que leia os valores para largura, comprimento e altura de um
+/*faça um programa que leia os valores para largura, comprimento e altura de um
 paralelepípedo retângulo e calcule o seu volume.
 
 Universidade dederal do Espírito Santo
