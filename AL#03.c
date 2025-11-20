@@ -1,5 +1,5 @@
-/*Escreva um algoritmo que leia um conjunto de 10 números inteiros e
-mostre qual foi o maior e o menor valor fornecido.
+/*Escreva um programa que calcule a média aritmética entre duas notas bimestrais
+quaisquer fornecidas por um aluno (usuário).
 
 Universidade Federal do Espírito Santo
 */
@@ -8,32 +8,22 @@ Universidade Federal do Espírito Santo
 
 int main(void)
 {
-    int n;
-    int maior, menor;
 
-    printf("Digite um número: ");
-    scanf("%d", &n);
+// Variáveis de tipo real
 
-    // Inicializa o maior e o menor com o primeiro valor lido
-    maior = n;
-    menor = n;
+float n1, n2;
+float media = 0;
 
-    // Lê os outros 9 números
-    for (int i = 1; i < 10; i++)
-    {
-        printf("Digite um número: ");
-        scanf("%d", &n);
+// Armazenar valores
+printf("Digite o valor da nota 1: \n");
+scanf("%f", &n1);
 
-        if (n > maior)
-            maior = n;
+printf("Digite o valor da nota 2: \n");
+scanf("%f", &n2);
 
-        if (n < menor)
-            menor = n;
-    }
+// Lógica
+media = (n1 + n2)/2;
 
-    //impressão do resultado
-    printf("\nMaior valor: %d\n", maior);
-    printf("Menor valor: %d\n", menor);
-
-    return 0;
+// Impressão do resultado
+printf("O resultado da média é: %.2f\n", media);
 }
