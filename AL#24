@@ -1,0 +1,28 @@
+/*Peça ao usuário um ano e determine se ele é bissexto ou não. Um
+ano é bissexto se:
+✓ É divisível por 4 e não por 100, ou
+✓ É divisível por 400.
+
+Universidade Federal do Espírito Santo
+
+*/
+
+#include <stdio.h>
+
+int main(void)
+{
+    int ano;
+
+    printf("Digite um ano para determinar se é bissexto:\n");
+    scanf("%d", &ano);
+
+    if ((ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0)
+    {
+        printf("É um ano bissexto");
+    }
+    else
+    {
+        printf("Não é um ano bissexto");
+    }
+    return 0;
+}
